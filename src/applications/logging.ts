@@ -39,19 +39,19 @@ const customFormat = format.combine(
   })
 )
 
-const productionTransports = [
-  new transports.File({
-    filename: 'logs/error.log',
-    level: 'error'
-  }),
-  new transports.File({
-    filename: 'logs/all.log'
-  })
-]
+// const productionTransports = [
+//   new transports.File({
+//     filename: 'logs/error.log',
+//     level: 'error'
+//   }),
+//   new transports.File({
+//     filename: 'logs/all.log'
+//   })
+// ]
 
 const customTransports = [
-  new transports.Console(),
-  ...(process.env.NODE_ENV === 'production' ? productionTransports : [])
+  new transports.Console()
+  // ...(process.env.NODE_ENV === 'production' ? productionTransports : [])
 ]
 
 export const logger: Logger = createLogger({
