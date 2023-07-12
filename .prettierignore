@@ -1,0 +1,12 @@
+eslintrc.json
+package.json
+package-lock.json
+tsconfig.json
+nodemon.json
+.prettierrc
+.prettierignore
+.gitignore
+README.md
+dist
+public
+node_modules

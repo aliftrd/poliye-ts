@@ -1,0 +1,53 @@
+{
+   "name": "poliye-ts",
+   "description": "Unofficial Api for Polije SIM ONLINE",
+   "version": "1.0.0",
+   "private": true,
+   "author": "Alif Triadi (https://github.com/aliftrd)",
+   "license": "MIT",
+   "scripts": {
+      "start": "node dist/index.js",
+      "dev": "npx nodemon",
+      "build": "tsc",
+      "lint": "eslint .",
+      "format": "prettier . --write"
+   },
+   "devDependencies": {
+      "@babel/preset-env": "^7.22.5",
+      "@babel/preset-typescript": "^7.22.5",
+      "@types/morgan": "^1.9.4",
+      "@types/uuid": "^9.0.2",
+      "@typescript-eslint/eslint-plugin": "^5.59.0",
+      "@typescript-eslint/parser": "^5.59.0",
+      "eslint": "^8.39.0",
+      "eslint-config-standard": "^17.0.0",
+      "eslint-config-standard-with-typescript": "^34.0.1",
+      "eslint-plugin-import": "^2.27.5",
+      "eslint-plugin-n": "^15.7.0",
+      "eslint-plugin-node": "^11.1.0",
+      "eslint-plugin-promise": "^6.1.1",
+      "nodemon": "^2.0.22",
+      "prettier": "2.8.7",
+      "ts-node": "10.7.0",
+      "typescript": "4.5.2"
+   },
+   "dependencies": {
+      "@types/express": "^4.17.17",
+      "@types/node": "^16.18.36",
+      "dotenv": "^16.0.3",
+      "express": "^4.17.17",
+      "joi": "^17.9.2",
+      "morgan": "^1.10.0",
+      "mysql2": "^3.5.1",
+      "puppeteer": "^20.8.0",
+      "sequelize": "^6.32.1",
+      "uuid": "^9.0.0",
+      "winston": "^3.9.0"
+   },
+   "engines": {
+      "node": ">=16.13.0"
+   },
+   "files": [
+      "dist/"
+   ]
+}
